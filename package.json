@@ -1,0 +1,33 @@
+{
+  "name": "nfc_arg",
+  "version": "1.0.0",
+  "description": "augmented reality game using near field technology",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "thomas saulnier",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.7.3",
+    "mongoose": "^5.13.14",
+    "nodemon": "^2.0.6",
+    "pug": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConXiu/ConXiu-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ConXiu/ConXiu-Server/issues"
+  },
+  "homepage": "https://github.com/ConXiu/ConXiu-Server#readme"
+}

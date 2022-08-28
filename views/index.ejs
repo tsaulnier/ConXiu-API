@@ -1,0 +1,61 @@
+<body>
+  <!-- THIS IS AN OPTIONAL FRONTEND FOR THE DATABASE CONTRIBUTION/EDITS -->
+    <h1>NFC Tag Registration To Database</h1>
+    <h2>Add A Tag</h2>
+    <form name="tagform" method="POST" action="/database_edit">
+    <table>
+        <tr>
+        <td>City:</td>
+        <td><input type="text" name="city" ></td>
+        </tr>
+        <tr>
+        <td>Description:</td>
+        <td><input type="text" name="desc" ></td>
+        </tr>
+        <tr>
+        <td>Hash:</td>
+        <td><input type="text" name="hash" ></td>
+        </tr>
+        <tr>
+        <td>Coordinates:</td>
+        </tr>
+        <tr>
+        <td>North:</td>
+        <td><input type="text" name="coord_n" ></td>
+        <td>West:</td>
+        <td><input type="text" name="coord_w" ></td>
+        </tr>
+        <tr>
+        <td>Question:</td>
+        <td><input type="text" name="quest" ></td>
+        </tr>
+        <tr>
+        <td>Answer:</td>
+        <td><input type="text" name="ans" ></td>
+        </tr>
+        <tr>
+        <td colspan="2"><input type="submit" value="Save" ></td>
+        </tr>
+    </table>
+    <h2>Delete A Tag From Database</h2>
+    <table>
+      <tr>
+      <td>Tag ID:</td>
+      <td><input type="text" name="id" ></td>
+      </tr>
+      <tr>
+      <td colspan="2"><input type="submit" value="Delete" ></td>
+      </tr>
+    </table>
+    <!-- <h2>Current Tags in Database</h2>
+    <table>
+      <tr>
+      <td>Tag ID:</td>
+      <td><input type="text" name="id" ></td>
+      </tr>
+      <tr>
+      <td colspan="2"><input type="submit" value="Delete" ></td>
+      </tr>
+    </table> -->
+    </form>
+</body>
